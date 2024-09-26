@@ -1,6 +1,7 @@
 # Getting Started
 
 ### To Run In Docker
+To build the docker file: `docker save webflux_customer_test -o ./webflux.tar`
 To load the included docker image into your Docker instance: `docker load -i webflux.tar`
 To start up the application with port 8080 exposed: `docker run -p 8080:8080 webflux_customer_test`
 
