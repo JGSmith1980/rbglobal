@@ -1,0 +1,4 @@
+FROM openjdk:17-jdk-alpine
+MAINTAINER smith.jeremy
+COPY build/libs/webflux-0.0.1-SNAPSHOT.jar webflux-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","/webflux-0.0.1-SNAPSHOT.jar"]
